@@ -1,10 +1,10 @@
 # CBREN
 CBREN: Convolutional Neural Networks for Constant Bit Rate Video Quality Enhancement, IEEE TCSVT.    <br/>
-Pytorch implementation of CBREN <br/>
+Pytorch implementation of CBREN. <br/>
 
 Note: different from the paper, this code adds residual blocks to the pixel-domain branch of DRM module, but it has little impact on the effect of the network.     <br/>
 
-Because the DCN compilation in Windows environment may cause problems, this code may only run in Linux environment     <br/>
+Because the DCN compilation in Windows environment may cause problems, this code may only run in Linux environment.     <br/>
 ## Requirements
 Python 3.8<br/>
 PyTorch 1.6.0<br/>
