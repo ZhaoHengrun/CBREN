@@ -28,5 +28,5 @@ Run `tools/video_get_frames.py` to obtain the image sequence in PNG format from 
 We provide models that have been trained: https://pan.baidu.com/s/1sszHgZ1tYVEu8toyUkFaUw Extraction code: i0zs<br/>
 
 ## Run
-Run`python test.py`, and the generated images are saved in the`results/`.	<br/>
+Run`python run.py`, and the generated images are saved in the`results/`.	<br/>
 If the size of GPU memory is not large enough to run the sequences A and B, please run `run_group_A&B.py`.	<br/>
