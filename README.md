@@ -1,6 +1,5 @@
 # CBREN
-CBREN: Convolutional Neural Networks for Constant Bit Rate Video Quality Enhancement, IEEE TCSVT.    <br/>
-Pytorch implementation of CBREN. <br/>
+This is the Pytorch implementation for our IEEE TCSVT paper : CBREN: Convolutional Neural Networks for Constant Bit Rate Video Quality Enhancement.    <br/>
 
 Note: different from the paper, this code adds residual blocks to the pixel-domain branch of DRM module, but it has little impact on the effect of the network.     <br/>
 
@@ -24,8 +23,8 @@ Hm16.0 is used to compress the standard test sequence.   <br/>
 The original video and compressed video in YUV format are converted to MP4 format by ffmpeg.  <br/>
 We provided the BasketballPass video in MP4 format as a demonstration in this project.  <br/>
 Run `tools/video_get_frames.py` to obtain the image sequence in PNG format from the video.   <br/>
-### Models
-We provide models that have been trained: https://pan.baidu.com/s/1sszHgZ1tYVEu8toyUkFaUw Extraction code: i0zs<br/>
+### Pretrained models
+Pretrained models are available: https://pan.baidu.com/s/1sszHgZ1tYVEu8toyUkFaUw Extraction code: i0zs<br/>
 
 ## Run
 Run`run.py`, and the generated images are saved in `results/`.	<br/>
